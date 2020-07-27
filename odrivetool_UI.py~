@@ -633,7 +633,7 @@ class ExampleApp(QtWidgets.QMainWindow, UI_mainwindow.Ui_MainWindow):
 		self.my_drive.erase_configuration()
 	def clearAlarm(self):
 		#dump_errors(my_drive, True)
-		axes = [(name, axis) for name, axis in self.my_drive._remote_attributes.items() if 'axis' in name]
+		axes = [(name, axis) for name, axis in self.motorDriver._remote_attributes.items() if 'axis' in name]
 		axes.sort()
 		#self.errorList = []
 		#errorFlag = False

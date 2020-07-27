@@ -4306,7 +4306,7 @@ class Ui_MainWindow(object):
         self.pushButton_writeConfiguration.setText(_translate("MainWindow", "Write Configuration"))
         self.pushButton_saveConfiguration.setText(_translate("MainWindow", "Save Configuration"))
         self.pushButton_eraseConfiguration.setText(_translate("MainWindow", "Erase Configuration"))
-        self.pushButton_getTemp.setText(_translate("MainWindow", "Clear Alarm!"))
+        self.pushButton_getTemp.setText(_translate("MainWindow", "Get Temp"))
         self.menuCommands.setTitle(_translate("MainWindow", "Odrive"))
         self.menuHelp.setTitle(_translate("MainWindow", "Help"))
         self.actionSave_configration.setText(_translate("MainWindow", "Save configration"))
